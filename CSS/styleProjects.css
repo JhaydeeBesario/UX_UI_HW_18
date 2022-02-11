@@ -8,6 +8,17 @@
   .myWork{
     text-align: center;
   }
+
+    .grid-Container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+.end {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
   .intro {
     font-weight: bold;
     }
