@@ -2,7 +2,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 50%;
     border-radius: 15px 15px 15px 15px;
   }
   .myWork{
@@ -12,7 +12,14 @@
     .grid-Container {
         display: grid;
         grid-template-columns: auto auto;
+        
     }
+
+.button {
+    margin-bottom: 5%;
+
+}
+
 
 .end {
     margin-bottom: 5%;
@@ -63,3 +70,12 @@
    .nav {
     font-size: 17px;
    }
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  div {
+    display: column;
+    flex-direction: row-reverse;
+  }
